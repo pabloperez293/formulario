@@ -119,3 +119,11 @@ body{
     width: 30px;
     height: 30px;
 }
+
+/* estado de colores */
+.color-red{
+    color: hsl(4, 71%, 50%);
+}
+.color-blue{
+    color: green;
+}

@@ -1,8 +1,13 @@
 // Variables
 const contactForm = document.getElementById("contactForm");
+
 const contactName = document.getElementById("contactName");
-const contactEmail = document.getElementById("contactProject");
-const contactProject = document.getElementById("contactProject");
+const contactEmail = document.getElementById("contactEmail");
+const contactDomicilio = document.getElementById("contactDomicilio");
+const contactEdad = document.getElementById("contactEdad");
+const contactDatos = document.getElementById("contactDatos");
+const contactCelular = document.getElementById("contactCelular");
+
 const contactMessage = document.getElementById("contactMessage");
 
 
@@ -10,7 +15,7 @@ const contactMessage = document.getElementById("contactMessage");
 const sendEmail = (evt) => {
     evt.preventDefault()
 
-    if( contactName.value === '' || contactEmail.value === '' || contactProject.value ===  '' ){
+    if( contactName.value === '' || contactEmail.value === '' || contactDomicilio.value === ''|| contactEdad.value === '' || contactDatos.value ===  '' || contactCelular.value ===  ''){
 
 // Agregamos y removes avisos
         contactMessage.classList.remove('color-blue');
@@ -37,8 +42,10 @@ const sendEmail = (evt) => {
 // Borrado de inputs
         contactName.value = ""
         contactEmail.value = ""
-        contactProject.value = ""
-
+        contactDomicilio.value = ""
+        contactEdad.value = ""
+        contactDatos.value = ""
+        contactCelular.value = ""
     }
 }
 

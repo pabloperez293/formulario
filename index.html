@@ -31,16 +31,20 @@
             <form class="mainForm" id="contactForm">
                 <input type="text" placeholder="Nombre de persona" id="contactName" class="mainInput">
 
-                <input type="text" placeholder="Edad" id="contactEdad" class="mainInput">
+                <input type="text" placeholder="Email" id="contactEmail" class="mainInput">
 
-                <input type="text" placeholder="Domicilio" id="contactProject" class="mainInput">
+                <input type="text" placeholder="Domicilio" id="contactDomicilio" class="mainInput">
 
-                <input type="number" placeholder="Celular" id="contactEmail"  class="mainInput">
+                <input type="number" placeholder="Edad" id="contactEdad" class="mainInput">
+              
+                <input type="text" placeholder="Datos" id="contactDatos" class="mainInput">
+
+                <input type="number" placeholder="Celular" id="contactCelular"  class="mainInput">
 
                 <!-- Mensaje -->
                 <p class="contactMessage" id="contactMessage"></p>
 
-                <input type="submit" placeholder="Enviar" class="mainInput mainEnviado">
+                <button type="submit" placeholder="Enviar" class="mainInput mainEnviado">Enviar</button>
 
             </form>
 <!-- Iconos para mostrar -->
@@ -65,6 +69,10 @@
 
 <!-- javascript -->
 <script src="/js/main.js"></script>
+
+<!-- emailjs  -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
     
 </body>
 </html>
