@@ -88,7 +88,7 @@ body{
 }
 .mainEnviado{
     background-color: var(--primer-color) ;
-    color: white ;
+    color: black ;
     font-weight: 600;
 }
 /* Titulos y parrafos */
