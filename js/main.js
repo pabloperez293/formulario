@@ -1,4 +1,5 @@
 // Variables
+const contactForm = document.getElementById("contactForm");
 const contactName = document.getElementById("contactName");
 const contactEmail = document.getElementById("contactProject");
 const contactProject = document.getElementById("contactProject");
@@ -20,7 +21,7 @@ const sendEmail = (evt) => {
     }else{
 
 // serviceID , templateId, #form , publickey
-        emailjs.sendForm('service_aapl9hr','template_wl7rulh','#contactForm','ADGl8lPMJrgzUqeEo')
+        emailjs.sendForm('service_i97z35p','template_9lm2tbs','#contactForm','ADGl8lPMJrgzUqeEo')
         .then(() => {
             contactMessage.classList.add("color-blue");
             contactMessage.textContent = "mensaje enviado"
