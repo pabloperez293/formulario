@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    /* Colores */
+    --primer-color: hsl(209, 76%, 77%);
+
+
+    /* fuentes */
+    
+    --body-font: 'Raleway', sans-serif;
+    
+    /* gradientes */
+    --gradiente-color1:linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --gradiente-color2:linear-gradient(120deg, #a1c4fd50 20%, #c2e9fb31 80%);
+
+}
+body{
+    font-family: var(--body-font) ;
+    min-height: 600px;
+    padding: 80px 0;
+    background-image:var(--gradiente-color1);
+    background-color: var(--primer-color);
+    display: flex;
+}
+.main{
+    margin: auto;
+    width: 90%;
+    background-image:var(--gradiente-color2);
+    overflow: hidden;
+    padding: 1em;
+    border-radius: 1em;
+}
+.mainImg{
+    width: 80%;
+}
