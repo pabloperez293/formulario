@@ -7,8 +7,7 @@
 
     /* Colores */
     --primer-color:rgba(231,169,66,1);
-    --segundo-color: rgba(231,169,66,1);
-
+    --segundo-color: rgb(250, 250, 250);
 
     /* fuentes */
     
@@ -114,7 +113,7 @@ body{
     padding: .6em 1.5em;
 }
 .mainLink:hover{
-    background-color: white;
+    background-color: var(--segundo-color);
 }
 .mainIcon{
     width: 30px;
@@ -123,8 +122,14 @@ body{
 
 /* estado de colores */
 .color-red{
+    font-size: 1.5em;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px rgb(148, 147, 147);
     color: hsl(4, 71%, 50%);
 }
 .color-blue{
+    font-size: 1.5em;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px black;
     color: green;
 }
