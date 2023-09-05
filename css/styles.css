@@ -90,6 +90,7 @@ body{
     background-color: var(--primer-color) ;
     color: black ;
     font-weight: 600;
+    cursor: pointer;
 }
 /* Titulos y parrafos */
 .mainTitulo{
