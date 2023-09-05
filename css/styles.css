@@ -124,12 +124,10 @@ body{
 .color-red{
     font-size: 1.5em;
     font-weight: bolder;
-    -webkit-text-stroke: 1px rgb(148, 147, 147);
     color: hsl(4, 71%, 50%);
 }
 .color-blue{
     font-size: 1.5em;
     font-weight: bolder;
-    -webkit-text-stroke: 2px black;
     color: green;
 }
